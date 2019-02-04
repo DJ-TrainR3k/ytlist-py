@@ -45,9 +45,6 @@ if total <= 5:
         print("Saving: " + json_data["items"][i]["snippet"]["title"])
         f.write("#" + json_data["items"][i]["snippet"]["title"] + "\n")
         f.write(json_data["items"][i]["id"] + "\n")
-        #print("i = " + repr(i))
-        #print("j = " + repr(j))
-        #print(pageToken)
         i += 1
         j += 1
 elif total > 5:
@@ -65,9 +62,6 @@ elif total > 5:
             print("Saving: " + json_data["items"][i]["snippet"]["title"])
             f.write("#" + json_data["items"][i]["snippet"]["title"] + "\n")
             f.write(json_data["items"][i]["id"] + "\n")
-            # print("i = " + repr(i))
-            # print("j = " + repr(j))
-            # print(pageToken)
             i += 1
             j += 1
     if j == total + 1:
