@@ -7,7 +7,7 @@ ytlist is a python script to get a YouTube user's playlists and save to a text f
 
 
  * **You need a Youtube API key, you can get one [here](https://developers.google.com/youtube/v3/getting-started)**
-
+**If you keep getting a 400 error when running, it probably means you didn't enter your API key**
 
 
 Running the script is simple, all you need to do is run it with python3:
