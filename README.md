@@ -36,4 +36,4 @@ This one downloads the best quality video and audio into the corresponding playl
 
 `youtube-dl -ciw --extract-audio --audio-format mp3 -o '%(playlist)s/%(playlist_index)s_%(title)s_%(id)s.%(ext)s' --download-archive archive.txt --yes-playlist --embed-thumbnail -R 10000 -a playlists.txt`
 
-This one extracts the video audio, converts it to MP3, embeds the thumbnail of the video into the MP3 file and also puts the files into the orresponding playlist folders.
+This one extracts the video audio, converts it to MP3, embeds the thumbnail of the video into the MP3 file and also puts the files into the corresponding playlist folders.
